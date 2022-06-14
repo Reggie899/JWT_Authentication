@@ -1,0 +1,14 @@
+GET http://localhost:3000/posts
+
+
+
+
+###
+
+POST http://localhost:3000/login
+//if it s a post, I need to prepare a content type
+Content-Type: application/json
+
+{
+    "username": "John"
+}
